@@ -3,7 +3,11 @@ const Card = (props) => {
         <div className="card">
             <h3 className="card-title" >{props.title}</h3>
             <p className="card-desc"> {props.description}</p>
+            <a  className = "cardButton" href={props.link} target="_blank"
+        rel="noopener noreferrer">Visit Repo</a>
+            
             </div>
+            
     )
 }
 export default Card;
